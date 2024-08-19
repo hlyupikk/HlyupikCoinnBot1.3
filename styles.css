@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#click-button {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+}
+
+#coin-count {
+    font-size: 1.5em;
+}
+
+.shop-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shop-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.shop-item:hover {
+    background-color: #d1d1d1;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 600px) {
+    #app {
+        width: 100%;
+    }
+
+    #click-button {
+        width: 80px;
+        height: 80px;
+    }
+
+    .shop-item {
+        padding: 5px;
+    }
+
+    .shop-item img {
+        width: 30px;
+        height: 30px;
+    }
+}
